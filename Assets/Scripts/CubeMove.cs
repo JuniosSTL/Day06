@@ -13,6 +13,7 @@ public class CubeMove : MonoBehaviour
         float v = Input.GetAxis("Vertical");
 
         transform.Translate(0, v * moveSpeed * Time.deltaTime, 0);
+        //transform.position += new Vector3(0, v * moveSpeed * Time.deltaTime, 0);
         transform.Rotate(0, 0, -h * angularSpeed * Time.deltaTime);
     }
 }
