@@ -6,6 +6,6 @@ public class PropellerRotate : MonoBehaviour
 {
     void Update()
     {
-        transform.Rotate(0, 5400 * Time.deltaTime, 0);
+        transform.Rotate(5400 * Time.deltaTime, 0, 0);
     }
 }
